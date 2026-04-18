@@ -106,8 +106,3 @@ Deploy to [Railway](https://railway.app), [Render](https://render.com), or a VPS
 | `schedule` | Runs the job on a daily timer |
 | `email_login` | Custom module containing `send_email()` |
 
----
-
-## License
-
-MIT
