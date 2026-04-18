@@ -13,14 +13,12 @@ PORT = 587
 current_dir = Path(__file__).resolve().parent if "__file__" in locals() else Path.cwd()
 envars = current_dir / ".env"
 load_dotenv(envars)
-
-# Read environment variables
 sender_email = os.getenv("EMAIL")
 password_email = os.getenv("PASSWORD")
 
 
 def send_email(subject, receiver_email, name, due_date, invoice_no, amount):
-    # Create the base text message.
+  
     msg = EmailMessage()
     msg["Subject"] = subject
     msg["From"] = formataddr(("Travnook", f"{sender_email}"))
