@@ -1,4 +1,4 @@
-# TravNook Invoice Email Automation
+# Invoice Email Automation
 
 Automated invoice reminder system that reads unpaid invoices from Google Sheets and sends email reminders to clients daily at 9:00 AM.
 
